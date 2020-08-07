@@ -1,4 +1,4 @@
-
+'''
 from discord.ext import commands
 import os
 import traceback
@@ -137,4 +137,4 @@ async def on_message(message):
 # botの接続と起動
 # （botアカウントのアクセストークンを入れてください）
 client.run(TOKEN)
-'''
+
